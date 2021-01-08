@@ -1,0 +1,73 @@
+/*Style*/
+
+/*Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Work+Sans&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap%27');
+
+/*
+@font-face {
+	font-family: "myFirstFont";
+	src: url("../font/Ubuntu-Regular.ttf");
+	font-family: "mySecondFont";
+	src: url("..font/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+*/
+
+#fontnav {
+	font-family: "font-family: 'Ubuntu', sans-serif;";
+	font-size: 2em;
+}
+
+.fontgeneral {
+	font-family: "font-family: 'Work Sans', sans-serif;";
+	font-size: 1.1em ;
+}
+
+/*Police*/
+
+span {
+	font-size: 1.11em;
+	text-decoration: underline;
+}
+
+/*Navigation*/
+
+.navbar-toggler {
+	color: #010101;
+}
+
+/*Map*/
+
+#mapid {
+	height: 400px;
+	width: 100%;
+	border: 2px solid #F0F0F0;
+	margin-bottom: 1.7em;
+}
+
+/*Boutons sous la map*/
+
+
+/*Images Logo + Icônes Météo*/
+
+.card-img {
+	margin: 5% 0 5% 5%;
+	min-height: 10px;
+	min-width: 15px;
+	max-height: 100px;
+	max-width: 125px;
+}
+
+/*Tu veux que je t'envoie les liens pour les polices sans utiliser font face ?
+ce sera peut être plus simple
+si jamais copie ça tout en haut du css :
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap%27);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&family=Work+Sans&display=swap%27);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap%27);
+et :
+quand tu voudra utiliser la police :
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Work Sans', sans-serif;
+*/
